@@ -5,7 +5,7 @@
   mail: nmedw@northwestern.edu
   summary: edw onboard training final project 
   type: cohort 
-  assigned to: Yu Deng (NMH\nm179412)
+  assigned to: Yu Deng 
   classificiation: Research 
   organization: FSM (based on which organization you are at, select different types)
 #### 3. click on save first to proceed to fill the rest part of the form )
