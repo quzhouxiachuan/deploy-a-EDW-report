@@ -2,12 +2,14 @@
 ## Task Master
 #### 1. go to task master,  right click on the upper right to create a new task 
 #### 2. fill out the form. The following is an example for this: 
-  mail: nmedw@northwestern.edu
+ ```
+ mail: nmedw@northwestern.edu
   summary: edw onboard training final project 
   type: cohort 
   assigned to: Yu Deng 
   classificiation: Research 
   organization: FSM (based on which organization you are at, select different types)
+```
 #### 3. click on save first to proceed to fill the rest part of the form )
 #### 4. click on request approval from data data stewards, click on 'create cohorts' 
 #### 5. this brings you to a creating cohort page, fill out the information accordingly. Select source type SQL. You can leave the 'reports' and 'users' session blank. To fill out the source data session, your query may look like this: 
