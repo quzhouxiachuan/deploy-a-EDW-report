@@ -39,7 +39,8 @@ SELECT p.mrd_pt_id
  ON c.[cohort_id] = cp.[cohort_id]
  AND c.[is_dltd_flg] = 0
 ```
-#### 3. click on'create solution' to download your report. Unzip your solution. After unzip it, you will get a .sln file and a folder. In my case, I have edw_onboard_training_YD folder and edw_onboard_training_YD.sln. PLEASE BE SURE THAT the folder and file are under the same directory. In my case, both  edw_onboard_training_YD folder and edw_onboard_training_YD.sln are in directory: 'C:\Users\ydw529\Downloads'
+#### 3. click on'create solution' to download your report. Unzip your solution. 
+After unzip it, you will get a .sln file and a folder. In my case, I have edw_onboard_training_YD folder and edw_onboard_training_YD.sln. PLEASE BE SURE THAT the folder and file are under the same directory. In my case, both  edw_onboard_training_YD folder and edw_onboard_training_YD.sln are in directory: 'C:\Users\ydw529\Downloads'
 
 ## visual studio 
 #### 1. create a batch script named 'ssrs'. Put the exactly same command on the script except changing user name to your own NM id: 
