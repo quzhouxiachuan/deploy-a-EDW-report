@@ -40,9 +40,9 @@ SELECT p.mrd_pt_id
 #### 3. click on'create solution' to download your report. Unzip your solution. After unzip it, you will get a .sln file and a folder. In my case, I have edw_onboard_training_YD folder and edw_onboard_training_YD.sln. PLEASE BE SURE THAT the folder and file are under the same directory. In my case, both  edw_onboard_training_YD folder and edw_onboard_training_YD.sln are in directory: 'C:\Users\ydw529\Downloads'
 
 ## visual studio 
-#### 1. create a batch script named 'ssrs'. Put the exactly same command on the script: 
+#### 1. create a batch script named 'ssrs'. Put the exactly same command on the script except changing user name to your own NM id: 
 ```
-runas /netonly /user:NMH\NM179412 "C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe"
+runas /netonly /user:NMH\NM_YOURNM_ID "C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe"
 ```
 #### 2. run your script (double click on ssrs), enter your nmh password when asked. This step helps connect visual studio to edw
 #### 3. by running the script, visual studio will pop up itself(just like when we are trying to connect edw ssms). Click on upper left 'file', click on 'open', click on 'project/solution'. Choose your solution file to import, in my case, it is 'edw_onboard_training_YD.sln'. 
