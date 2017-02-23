@@ -41,7 +41,9 @@ SELECT p.mrd_pt_id
 
 ## visual studio 
 #### 1. create a batch script named 'ssrs'. Put the exactly same command on the script: 
+```
 runas /netonly /user:NMH\NM179412 "C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe"
+```
 #### 2. run your script (double click on ssrs), enter your nmh password when asked. This step helps connect visual studio to edw
 #### 3. by running the script, visual studio will pop up itself(just like when we are trying to connect edw ssms). Click on upper left 'file', click on 'open', click on 'project/solution'. Choose your solution file to import, in my case, it is 'edw_onboard_training_YD.sln'. 
  We are almost done!! Hanging there! 
