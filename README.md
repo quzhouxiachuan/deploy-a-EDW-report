@@ -10,8 +10,8 @@
   classificiation: Research 
   organization: FSM (based on which organization you are at, select different types)
 ```
-#### 3. click on save first to proceed to fill the rest part of the form )
-#### 4. click on request approval from data data stewards, click on 'create cohorts' 
+#### 3. click on save 
+#### 4. click on 'request approval from data stewards', click on 'create cohorts' 
 #### 5. this brings you to a creating cohort page, fill out the information accordingly. Select source type SQL. You can leave the 'reports' and 'users' session blank. To fill out the source data session, your query may look like this: 
 ``` 
 SELECT TOP 10 mrd_pt_id
