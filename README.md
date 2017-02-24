@@ -41,6 +41,7 @@ SELECT p.mrd_pt_id
 After unzip it, you will get a .sln file and a folder. In my case, I have edw_onboard_training_YD folder and edw_onboard_training_YD.sln. PLEASE BE SURE THAT the folder and file are under the same directory. In my case, both  edw_onboard_training_YD folder and edw_onboard_training_YD.sln are in directory: 'C:\Users\ydw529\Downloads'
 
 ## visual studio 
+#### prior to running visual studio, PLEASE MAKE SURE your SSMS is connect to EDW (I am not sure if this step is required, but just to be on the safe side)
 #### 1. create a batch script named 'ssrs'. Put the exactly same command on the script except changing user name to your own NM id: 
 ```
 runas /netonly /user:NMH\NM_YOURNM_ID "C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe"
@@ -56,7 +57,7 @@ click on yes
 #### 5. on the top left title row, click on 'Build', select 'deploy...(this should be your report name)'. 
 
 ## ReportDeployer
-#### 1.go back to EDW website, go to ReportDeloyer, put your report path, click on 'load'
+#### 1.go back to EDW website, go to ReportDeloyer, click on the link of the report you just deployed, this brings you to a different page. Click on 'submit for review'. Send the email. Please remember to fill out the blank in the automated email. 
 
 To be continued... 
 
