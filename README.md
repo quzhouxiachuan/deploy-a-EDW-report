@@ -19,6 +19,7 @@ SELECT TOP 10 mrd_pt_id
 FROM edw.[mrd].[patient_deidentified] p
 ```
 #### 6. click on 'insert', a cohort will be created, you will get a cohort ID. In my case, my cohort ID is 2446. 
+ignore
 #### 7. click on 'add' on the top left, close out your current creating cohort page, and go back to your taskmaster 
 #### 8. click on 'cohorts', and put your cohort id, in my case, it is 2446 
 #### 9. put your IRB number, in my case, I used IRB STU00022017. Click on 'Save'
