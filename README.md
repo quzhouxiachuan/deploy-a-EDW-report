@@ -53,6 +53,9 @@ runas /netonly /user:NMH\NM_YOURNM_ID "C:\Program Files (x86)\Microsoft Visual S
 #### 4. After successfully importing your file, click on 'Preview', enter your cohort identification number(IMPORTANT, OR ELSE YOU WILL SEE NOTHING). In my case, I put 2446. Click on 'view report'. 
 #### 5. on the top left title row, click on 'Build', select 'deploy...(this should be your report name)'. 
 
+## ReportDeployer
+#### 1.go back to EDW website, go to ReportDeloyer, put your report path, click on 'load'
+
 To be continued... 
 
 
