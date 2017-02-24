@@ -9,6 +9,7 @@
   assigned to: Yu Deng 
   classificiation: Research 
   organization: FSM (based on which organization you are at, select different types)
+  IRB Number: STU00022017
 ```
 #### 3. click on save 
 #### 4. click on 'request approval from data stewards', click on 'create cohorts' 
