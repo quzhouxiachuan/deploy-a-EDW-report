@@ -1,6 +1,6 @@
 # EDW on-boarding training: from taskmaster to deploy a report
 ## Task Master
-#### 1. go to task master,  click on the upper right to create a new task 
+#### 1. go to TaskMaster, on upper right, click on 'New Task' 
 #### 2. fill out the form. The following is an example for this: 
  ```
   mail: nmedw@northwestern.edu
