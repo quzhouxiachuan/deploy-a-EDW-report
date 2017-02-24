@@ -51,6 +51,10 @@ runas /netonly /user:NMH\NM_YOURNM_ID "C:\Program Files (x86)\Microsoft Visual S
 ```
 #### 2. run your script (double click on ssrs), enter your nmh password when asked. This step helps connect visual studio to edw
 #### 3. by running the script, visual studio will pop up itself(just like when we are trying to connect edw ssms). Click on upper left 'file', click on 'open', click on 'project/solution'. Choose your solution file to import, in my case, it is 'edw_onboard_training_YD.sln'. 
+``` 
+Do you want to upgrade this report server project to the lastest version? 
+``` 
+click on yes
  We are almost done!! Hanging there! 
 #### 4. After successfully importing your file, click on 'Preview', enter your cohort identification number(IMPORTANT, OR ELSE YOU WILL SEE NOTHING). In my case, I put 2446. Click on 'view report'. 
 #### 5. on the top left title row, click on 'Build', select 'deploy...(this should be your report name)'. 
