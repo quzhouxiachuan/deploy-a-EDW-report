@@ -54,6 +54,7 @@ Do you want to upgrade this report server project to the lastest version?
 click on yes
  We are almost done!! Hanging there! 
 #### 4. After successfully importing your file, click on 'Preview', enter your cohort identification number(IMPORTANT, OR ELSE YOU WILL SEE NOTHING). In my case, I put 2446. Click on 'view report'. 
+
 #### 5. on the top left title row, click on 'Build', select 'deploy...(this should be your report name)'. 
 
 ## ReportDeployer
